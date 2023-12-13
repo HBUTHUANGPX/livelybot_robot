@@ -1,3 +1,27 @@
 [submodule "livelybot_bringup"]
 	path = src/livelybot_bringup
 	url = https://github.com/HBUTHUANGPX/livelybot_bringup.git
+[submodule "livelybot_controller"]
+	path = src/livelybot_controller
+	url = https://github.com/HBUTHUANGPX/livelybot_controller.git
+[submodule "livelybot_description"]
+	path = src/livelybot_description
+	url = https://github.com/HBUTHUANGPX/livelybot_description.git
+[submodule "livelybot_gazebo"]
+	path = src/livelybot_gazebo
+	url = https://github.com/HBUTHUANGPX/livelybot_gazebo.git
+[submodule "livelybot_gazebo_controller"]
+	path = src/livelybot_gazebo_controller
+	url = https://github.com/HBUTHUANGPX/livelybot_gazebo_controller.git
+[submodule "livelybot_imu"]
+	path = src/livelybot_imu
+	url = https://github.com/HBUTHUANGPX/livelybot_imu.git
+[submodule "livelybot_msg"]
+	path = src/livelybot_msg
+	url = https://github.com/HBUTHUANGPX/livelybot_msg.git
+[submodule "livelybot_serial"]
+	path = src/livelybot_serial
+	url = https://github.com/HBUTHUANGPX/livelybot_serial.git
+[submodule "livelybot_urdf"]
+	path = src/livelybot_urdf
+	url = https://github.com/HBUTHUANGPX/livelybot_urdf.git
