@@ -1,0 +1,68 @@
+left_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - L_hip_joint
+    - L_hip2_joint
+    - L_thigh_joint
+    - L_calf_joint
+    - L_toe_joint
+  gains:
+    L_hip_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_hip2_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_thigh_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_calf_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    L_toe_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+right_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - R_hip_joint
+    - R_hip2_joint
+    - R_thigh_joint
+    - R_calf_joint
+    - R_toe_joint
+  gains:
+    R_hip_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_hip2_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_thigh_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_calf_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    R_toe_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1

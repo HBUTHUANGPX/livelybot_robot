@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<package format="2">
+
+  <name>livelybot_moveit</name>
+  <version>0.0.0</version>
+  <description>
+     An automatically generated package with all the configuration and launch files for using the livelybot_gazebo with the MoveIt Motion Planning Framework
+  </description>
+  <author email="2082672018@qq.com">hpx</author>
+  <maintainer email="2082672018@qq.com">hpx</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>moveit_ros_move_group</build_depend>
+  <build_depend>moveit_fake_controller_manager</build_depend>
+  <build_depend>moveit_kinematics</build_depend>
+  <build_depend>moveit_planners</build_depend>
+  <build_depend>moveit_ros_visualization</build_depend>
+  <build_depend>moveit_setup_assistant</build_depend>
+  <build_depend>moveit_simple_controller_manager</build_depend>
+  <build_depend>joint_state_publisher</build_depend>
+  <build_depend>joint_state_publisher_gui</build_depend>
+  <build_depend>robot_state_publisher</build_depend>
+  <build_depend>rviz</build_depend>
+  <build_depend>tf2_ros</build_depend>
+  <build_depend>xacro</build_depend>
+  <build_depend>moveit_ros_planning</build_depend>
+  <build_depend>moveit_core</build_depend>
+
+  <exec_depend>moveit_ros_move_group</exec_depend>
+  <exec_depend>moveit_fake_controller_manager</exec_depend>
+  <exec_depend>moveit_kinematics</exec_depend>
+  <exec_depend>moveit_planners</exec_depend>
+  <exec_depend>moveit_ros_visualization</exec_depend>
+  <exec_depend>moveit_setup_assistant</exec_depend>
+  <exec_depend>moveit_simple_controller_manager</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>moveit_ros_planning</exec_depend>
+  <exec_depend>moveit_core</exec_depend>
+
+  <build_export_depend>moveit_ros_move_group</build_export_depend>
+  <build_export_depend>moveit_fake_controller_manager</build_export_depend>
+  <build_export_depend>moveit_kinematics</build_export_depend>
+  <build_export_depend>moveit_planners</build_export_depend>
+  <build_export_depend>moveit_ros_visualization</build_export_depend>
+  <build_export_depend>moveit_setup_assistant</build_export_depend>
+  <build_export_depend>moveit_simple_controller_manager</build_export_depend>
+  <build_export_depend>joint_state_publisher</build_export_depend>
+  <build_export_depend>joint_state_publisher_gui</build_export_depend>
+  <build_export_depend>robot_state_publisher</build_export_depend>
+  <build_export_depend>rviz</build_export_depend>
+  <build_export_depend>tf2_ros</build_export_depend>
+  <build_export_depend>xacro</build_export_depend>
+  <build_export_depend>moveit_ros_planning</build_export_depend>
+  <build_export_depend>moveit_core</build_export_depend>
+
+  <depend>livelybot_urdf</depend>
+  <depend>livelybot_serial</depend>
+  <depend>livelybot_msg</depend>
+  <!-- <depend>moveit_core</depend>
+  <depend>moveit_ros_planning</depend> -->
+</package>
